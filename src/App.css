@@ -28,9 +28,12 @@ body {
 
 .button-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(3, 150px);
+  grid-auto-rows: 80px; /* each row 80px tall */
   gap: 20px;
+  justify-content: center;
 }
+
 
 .btn {
   background: white;
